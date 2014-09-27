@@ -1,0 +1,16 @@
+
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #fff;
+background-color: #533;
+}
+
+
+
+.contact-left-border{
+	background-color: #fff;
+height: 100%;
+width: 14%;
+position: absolute;

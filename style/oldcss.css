@@ -1,0 +1,103 @@
+*font-family: 'Yellowtail', cursive;*/
+
+/*font-family: 'Calligraffitti', cursive;*/
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+.head
+{
+
+}
+
+body, html{
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;
+}
+.left-border{
+	background-color: #533;
+height: 150%;
+width: 10%;
+position: absolute;
+}
+
+
+
+
+.disp{
+	padding: 4% 0px;
+}
+.my_container{
+	width: 80%;
+	/*background-color: #ddd;*/
+	text-align: center;
+	margin: auto;
+}
+
+.head header h1{
+margin: 0px;
+font-weight: 100;
+font-size: 24px;
+text-align: center;
+font-style: italic;
+font-family: 'Yellowtail', cursive;
+}
+
+.head header h1 span
+{	
+	font-size: 80px;
+font-style: normal;
+text-shadow: 5px 5px 5px #000;
+}
+
+.navbuttons{
+	text-align: center;
+}
+.navbuttons a 
+{
+font-size: 20px;
+text-decoration: none;
+color: #C45;
+display: inline-block;
+padding: 6px 19px;
+}
+
+.navbuttons a:hover{
+	color: red;
+}
+
+.greeting
+{
+text-align: center;
+font-size: 22px;
+color: #666;
+margin-bottom: 47px;
+
+}
+
+.img img{
+display: inline-block;
+border: 1px solid #444;
+border-radius: 100px;
+box-shadow: 0px 0px 8px 3px #666;
+}
+
+.footer{
+position: absolute;
+bottom: -50%;
+width: 100%;
+font-size: 15px;
+font-style: italic;
+letter-spacing: 0.13em;
+}
+
+.about
+{
+	
+text-align: center;
+text-indent: justify;
+	}
+
+.abtimg img{
+
+	border-radius: 12px;
+}
