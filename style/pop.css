@@ -204,7 +204,7 @@ body, html{
 
 @media(min-width: 800px){
 	body{
-		background-image: url("/home/blessing/Downloads/slack bg.JPG");
+		background-image: url("/Images/style/slack bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
