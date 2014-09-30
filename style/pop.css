@@ -154,7 +154,7 @@ body, html{
 
 @media(min-width: 400px) and (max-width:800px){
 	body{
-		background-image: url("Images/slack bg.JPG");
+		background-image: url("Images/slack_bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -210,7 +210,7 @@ body, html{
 
 @media(min-width: 800px){
 	body{
-		background-image: url("Images/slack bg.JPG");
+		background-image: url("Images/slack_bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
