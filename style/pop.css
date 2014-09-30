@@ -5,10 +5,7 @@ body, html{
 	text-align: center;
 	height: 100%;
 	font-family: 'Roboto Condensed', sans-serif;
-	background-image: url("/home/blessing/Desktop/ewoma.github.io/Images/slack bg.JPG");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
+
 }
 
 .heading h1{
@@ -20,10 +17,7 @@ body, html{
 .heading h1 span{
 	text-shadow: 2px 2px #ccc;
 }
-.greeting p{
-	font-size: 20px;
 
-}
 
 .sidebar{
 	position: fixed;
@@ -160,7 +154,7 @@ body, html{
 
 @media(min-width: 400px) and (max-width:800px){
 	body{
-		background-image: url("/home/blessing/Desktop/ewoma.github.io/Images/slack bg.JPG");
+		background-image: url("Images/slack bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -216,7 +210,7 @@ body, html{
 
 @media(min-width: 800px){
 	body{
-		background-image: url("/home/blessing/Desktop/ewoma.github.io/Images/slack bg.JPG");
+		background-image: url("Images/slack bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
@@ -264,7 +258,7 @@ body, html{
 	.footer{
 		margin-top: 70px;
 		font-size: 15px;
-		font-size: 16px;
+		
 	}
 }
 
