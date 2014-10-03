@@ -99,23 +99,23 @@ body, html{
 
 
 /*Css for mobile phones */
-@media(max-width: 400px){ 
+@media(max-width: 320px){ 
 	.heading h1{
-		font-size: 16px;
+		font-size: 15.5px;
 	}
 
 	.heading h1 span{
-		font-size: 27px;
+		font-size: 18px;
 	}
 
 	.menu{
-		font-size: 17px;
+		font-size: 14px;
 		margin: 20px 0px;
 	}
 
 	.greetings{
 		margin: 10px 0px 23px 0px;
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	img{
@@ -124,7 +124,7 @@ body, html{
 	}
 
 	.bio{
-		font-size: 18px;
+		font-size: 14px;
 
 	}
 
@@ -154,7 +154,7 @@ body, html{
 
 @media(min-width: 400px) and (max-width:800px){
 	body{
-		background-image: url("Images/slack_bg.JPG");
+		background-image: url("../Images/slack_bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -210,7 +210,7 @@ body, html{
 
 @media(min-width: 800px){
 	body{
-		background-image: url("Images/slack_bg.JPG");
+		background-image: url("../Images/slack_bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
