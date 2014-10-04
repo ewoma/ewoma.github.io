@@ -8,6 +8,11 @@ body, html{
 
 }
 
+.career-block{
+	font-size: 16px;
+
+}
+
 .heading h1{
 	font-family: 'Yellowtail', cursive;
 	color: #533;
@@ -28,9 +33,9 @@ body, html{
 	color: #533;
 }
 .contact_image img{
-		border-radius: 100px;
-		float: left;
-		}
+	border-radius: 100px;
+	float: left;
+}
 
 .main-content{
 	position: relative;
@@ -132,13 +137,17 @@ body, html{
 		border-radius: 100px;
 		float: left;
 
-		}
+	}
 
 
 
 	.family-image{
-		/*width:20%;*/
+		width:100%;
 	}
+
+	/*.family-image img{
+		border-radius: 100px;
+	}*/
 
 	.relationship-image{
 		/*width:16.6666667%;
@@ -158,6 +167,7 @@ body, html{
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		background-color: white;
 	}
 
 	.heading h1{
@@ -194,6 +204,9 @@ body, html{
 		width:50%;
 		float: left;
 	}
+	/*.family-image img{
+		border-radius: 100px;
+	*/
 
 	.relationship-image{
 		width:16.6666667%;
@@ -206,14 +219,24 @@ body, html{
 		margin-top: 70x;
 		font-size: 15px;
 	}
+
+	
 }
 
+.education{
+	text-align: left;
+	position:relative;
+	display: inline-block;
+	margin-left: 10px;
+	color: red;
+}
 @media(min-width: 800px){
 	body{
 		background-image: url("../Images/slack_bg.JPG");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed; 
+		background-color: white;
 	}
 
 	.heading h1{
