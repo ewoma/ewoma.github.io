@@ -71,6 +71,7 @@ body, html{
 	padding-right: 50px;
 	float: left;
 	width: 50%;
+	z-index:5;
 }
 
 .contact-links{
@@ -92,7 +93,7 @@ body, html{
 	padding: 10px;
 	margin-left: -463px;
 	margin-top: 40px;
-	z-index: -1;
+	/*z-index: 0;*/
 	padding-left: 24px;
 }
 
@@ -116,11 +117,14 @@ body, html{
 	.menu{
 		font-size: 14px;
 		margin: 20px 0px;
+		text-align: right;
 	}
 
 	.greetings{
 		margin: 10px 0px 23px 0px;
 		font-size: 14px;
+		font-family: 'Roboto Condensed', sans-serif;
+
 	}
 
 	img{
@@ -145,14 +149,11 @@ body, html{
 		width:100%;
 	}
 
-	/*.family-image img{
+	.family-image img{
 		border-radius: 100px;
-	}*/
-
-	.relationship-image{
-		/*width:16.6666667%;
-		float: left;*/
 	}
+
+
 
 	.footer{
 		margin-top: 30px;
@@ -181,12 +182,15 @@ body, html{
 	.menu{
 		font-size: 20px;
 		margin: 20px 0px;
+		text-align: right;
 	}
 
 
 
 	.greetings{
 		margin: 10px 0px 23px 0px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 20px;
 	}
 	
 	img{
@@ -207,11 +211,6 @@ body, html{
 	/*.family-image img{
 		border-radius: 100px;
 	*/
-
-	.relationship-image{
-		width:16.6666667%;
-		float: left;
-	}
 
 	.whois{margin: -22px 40px 40px 40px;}
 
@@ -250,11 +249,14 @@ body, html{
 	.menu{
 		font-size: 20px;
 		margin: 20px 0px;
+		text-align: right;
 	}
 
 
 	.greetings{
 		margin: 10px 0px 23px 0px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 20px;
 	}
 	
 	img{
@@ -270,11 +272,6 @@ body, html{
 
 	.family-image{
 		width:20%;
-		float: left;
-	}
-
-	.relationship-image{
-		width:16.6666667%;
 		float: left;
 	}
 
