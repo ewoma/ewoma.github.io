@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 		var action = $(this).attr('action');
 		var values = $(this).serialize();
 
-		$('#submit').attr('disabled', 'disabled');
+		// $('#submit').attr('disabled', 'disabled');
 
 		$("#message").slideUp(0, function() {
 
@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 			$.post(action, values, function(data) {
 				$('#message').html(data);
 				$('#message').slideDown('slow');
-				$('#submit').removeAttr('disabled');
+				// $('#submit').removeAttr('disabled');
 				if(data.match('success') != null) $('#contactform')[0].reset();
 
 			});
