@@ -1,9 +1,9 @@
 ::-moz-selection {
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	color:white
 }
 ::selection {
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	color:white
 }
 body {
@@ -59,7 +59,7 @@ a:hover,a:focus {
 	font-weight:600;
 	color:white;
 	text-transform:uppercase;
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
 	box-shadow:none;
@@ -112,7 +112,7 @@ a:hover,a:focus {
 	transition:opacity,1s,linear
 }
 .js .pace-done {
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	-moz-transition:background,1s,linear;
 	-o-transition:background,1s,linear;
 	-webkit-transition:background,1s,linear;
@@ -130,7 +130,7 @@ a:hover,a:focus {
 	display:none
 }
 .js .pace .pace-progress {
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	position:fixed;
 	z-index:2000;
 	top:0;
@@ -158,7 +158,8 @@ a:hover,a:focus {
 	margin-bottom:15px;
 	width:100px;
 	height:5px;
-	background-color:#FFCA37;
+	background-color:rgba(80, 200, 120, 0.5);;
+
 	-moz-transition:all 0.3s ease-in-out;
 	-o-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -184,7 +185,7 @@ a:hover,a:focus {
 	background-color:#F8F8F8
 }
 .bg-dark {
-	background-color:#FFCA37;
+	background-color:rgba(80, 200, 120, 0.5);;
 	color:white
 }
 .bg-dark .section-title .line {
@@ -204,14 +205,14 @@ a:hover,a:focus {
 	-o-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 	transition:all 0.3s ease-in-out;
-	color:#FFCA37;
-	border:solid 2px #FFCA37;
+	color:rgba(80, 200, 120, 0.5);;
+	border:solid 2px rgba(80, 200, 120, 0.5);;
 	background-color:transparent;
 	text-decoration:none
 }
 .rounded-icon:hover,.rounded-icon:focus,.rounded-icon:active {
 	color:white;
-	background-color:#FFCA37
+	background-color:rgba(80, 200, 120, 0.5);
 }
 .bg-dark .rounded-icon,.overlay .rounded-icon {
 	color:white;
@@ -219,7 +220,7 @@ a:hover,a:focus {
 	background-color:transparent
 }
 .bg-dark .rounded-icon:hover,.bg-dark .rounded-icon:focus,.bg-dark .rounded-icon:active,.overlay .rounded-icon:hover,.overlay .rounded-icon:focus,.overlay .rounded-icon:active {
-	color:#FFCA37;
+	color:rgba(80, 200, 120, 0.5);;
 	background-color:white
 }
 .navbar-default {
@@ -261,8 +262,8 @@ a:hover,a:focus {
 	transition:opacity 0.3s ease-in-out
 }
 .navbar-default .logo {
-	width:50px;
-	height:50px
+	width:100%;
+	height:100%;
 }
 .navbar-default.affix-top .logo .background,.navbar-default.affix-top .logo .shadow {
 	fill:none
@@ -362,12 +363,12 @@ a:hover,a:focus {
 	height:100%;
 	overflow-y:scroll;
 	color:white;
-	background:#FFCA37;
-	background:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2EzNyIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNhMzciIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'),url("../img/header-2.jpg") no-repeat center center;
-	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255,202,55,0.8)),color-stop(100%, rgba(255,202,55,0.8))),url("../img/header-2.jpg") no-repeat center center;
-	background:-moz-linear-gradient(rgba(255,202,55,0.8),rgba(255,202,55,0.8)),url("../img/header-2.jpg") no-repeat center center;
-	background:-webkit-linear-gradient(rgba(255,202,55,0.8),rgba(255,202,55,0.8)),url("../img/header-2.jpg") no-repeat center center;
-	background:linear-gradient(rgba(255,202,55,0.8),rgba(255,202,55,0.8)),url("../img/header-2.jpg") no-repeat center center;
+	background:rgba(80, 200, 120, 0.5);;
+	background:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2EzNyIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNhMzciIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'),url("../img/gbDoor.jpg") no-repeat center center;
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(80,200,120,0.5)),color-stop(100%, rgba(80,200,120,0.5))),url("../img/gbDoor.jpg") no-repeat center center;
+	background:-moz-linear-gradient(rgba(80,200,120,0.5),rgba(80,200,120,0.5)),url("../img/gbDoor.jpg") no-repeat center center;
+	background:-webkit-linear-gradient(rgba(80,200,120,0.5),rgba(80,200,120,0.5)),url("../img/gbDoor.jpg") no-repeat center center;
+	background:linear-gradient(rgba(80,200,120,0.5),rgba(80,200,120,0.5)),url("../img/gbDoor.jpg") no-repeat center center;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -585,7 +586,43 @@ a:hover,a:focus {
 	height:180vh;
 	overflow-x:hidden;
 	color:white;
-	background:url("../img/header-1.jpg") no-repeat center 0;
+	background:url("../img/m.jpg") no-repeat center 0;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-size:cover
+}
+.header-fullscreen1 {
+	position:relative;
+	width:100%;
+	height:180vh;
+	overflow-x:hidden;
+	color:white;
+	background:url("../img/gbDoor.jpg") no-repeat center 0;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-size:cover
+}
+.header-fullscreen2 {
+	position:relative;
+	width:100%;
+	height:180vh;
+	overflow-x:hidden;
+	color:white;
+	background:url("../img/gianna8.jpg") no-repeat center 0;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-size:cover
+}
+.header-fullscreen3 {
+	position:relative;
+	width:100%;
+	height:180vh;
+	overflow-x:hidden;
+	color:white;
+	background:url("../img/gianna2.jpg") no-repeat center 0;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -604,16 +641,17 @@ a:hover,a:focus {
 .header-fullscreen h3 {
 	font-size:1.5em
 }
-.header-fullscreen .overlay {
+.header-fullscreen .overlay, .header-fullscreen1 .overlay,
+.header-fullscreen2 .overlay, .header-fullscreen3 .overlay {
 	display:block;
 	width:100%;
-	height:100vh;
+	height:200vh;
 	position:absolute;
 	top:0;
 	right:0;
 	bottom:0;
 	left:0;
-	background:url("../img/overlay-pattern.png") repeat 0 0 scroll,rgba(255,202,55,0.8)
+	background:url("../img/overlay-pattern.png") repeat 0 0 scroll,rgba(80,200,120,0.5)
 }
 .header-fullscreen .carousel {
 	height:100%
@@ -753,9 +791,9 @@ a:hover,a:focus {
 }
 .portfolio-filters .nav-pills>li a {
 	font-weight:400;
-	color:#FFCA37;
+	color:rgba(80, 200, 120, 0.5);;
 	text-transform:uppercase;
-	border:solid 2px #FFCA37;
+	border:solid 2px rgba(80, 200, 120, 0.5);;
 	-moz-border-radius:0;
 	-webkit-border-radius:0;
 	border-radius:0;
@@ -766,11 +804,11 @@ a:hover,a:focus {
 }
 .portfolio-filters .nav-pills>li a:hover,.portfolio-filters .nav-pills>li a:focus {
 	color:#fff;
-	background-color:#FFCA37
+	background-color:rgba(80, 200, 120, 0.5);
 }
 .portfolio-filters .nav-pills>li.active>a,.portfolio-filters .nav-pills>li.active>a:hover,.portfolio-filters .nav-pills>li.active>a:focus {
 	color:#fff;
-	background-color:#FFCA37
+	background-color:rgba(80, 200, 120, 0.5);
 }
 #portfolio-container {
 	-moz-transition:all 0.8s ease-in-out;
@@ -894,7 +932,7 @@ a:hover,a:focus {
 	margin-bottom:15px;
 	width:100px;
 	height:5px;
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	-moz-transition:all 0.3s ease-in-out;
 	-o-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -999,20 +1037,20 @@ a:hover,a:focus {
 	-o-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 	transition:all 0.3s ease-in-out;
-	-moz-box-shadow:#FFCA37 0 0 0 10px inset;
-	-webkit-box-shadow:#FFCA37 0 0 0 10px inset;
-	box-shadow:#FFCA37 0 0 0 10px inset
+	-moz-box-shadow:rgba(80,200,120,0.5) 0 0 0 10px inset;
+	-webkit-box-shadow:rgba(80,200,120,0.5) 0 0 0 10px inset;
+	box-shadow:rgba(80,200,120,0.5) 0 0 0 10px inset
 }
 .service .circle:hover,.service .circle:focus {
-	-moz-box-shadow:#FFCA37 0 0 0 0 inset;
-	-webkit-box-shadow:#FFCA37 0 0 0 0 inset;
-	box-shadow:#FFCA37 0 0 0 0 inset
+	-moz-box-shadow:rgba(80,200,120,0.5) 0 0 0 0 inset;
+	-webkit-box-shadow:rgba(80,200,120,0.5) 0 0 0 0 inset;
+	box-shadow:rgba(80,200,120,0.5) 0 0 0 0 inset
 }
 .service .circle .icon {
 	text-align:center;
 	font-size:90px;
 	line-height:196px;
-	color:#FFCA37;
+	color:rgba(80,200,120,0.5);
 	-moz-transition:all 0.3s ease-in-out;
 	-o-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -1071,7 +1109,7 @@ a:hover,a:focus {
 	padding:15px 0;
 	color:white;
 	text-align:center;
-	background-color:#FFCA37;
+	background-color:rgba(80,200,120,0.5);
 	overflow:hidden
 }
 .blog-item .post-date h4 {
@@ -1111,7 +1149,7 @@ a:hover,a:focus {
 	font-size:13px;
 	font-weight:700;
 	text-transform:uppercase;
-	background-color:#FFCA37
+	background-color:rgba(80,200,120,0.5)
 }
 .blog-sidebar .widget .tags li a:hover,.blog-sidebar .widget .tags li a:focus {
 	background-color:#5B6770;
@@ -1127,7 +1165,7 @@ a:hover,a:focus {
 	font-size:12px
 }
 .blog-sidebar .widget .categories li a:hover,.blog-sidebar .widget .categories li a:focus {
-	color:#FFCA37;
+	color:rgba(80,200,120,0.5);
 	text-decoration:none
 }
 .skill {
@@ -1243,11 +1281,11 @@ a:hover,a:focus {
 	margin-bottom:25px
 }
 .tweets .tweet>a:hover,.tweets .tweet>a:focus {
-	color:#FFCA37
+	color:rgba(80,200,120,0.5)
 }
 .tweets .timePosted {
 	margin:0;
-	color:#FFCA37
+	color:rgba(80,200,120,0.5)
 }
 .instagram-image {
 	position:relative;
@@ -1377,7 +1415,7 @@ a:hover,a:focus {
 	box-shadow:0 0 12px rgba(0,0,0,0.5)
 }
 .pricing-table.active .header {
-	background-color:#FFCA37
+	background-color:rgba(80,200,120,0.5)
 }
 /*.pricing-table.active:hover,.pricing-table.active:focus {
 	margin-top:-30px
@@ -1416,7 +1454,7 @@ a:hover,a:focus {
 .contact-box .icon {
 	margin-bottom:15px;
 	font-size:50px;
-	color:#FFCA37
+	color:rgba(80,200,120,0.5)
 }
 .form-control {
 	margin-bottom:15px;
@@ -1599,7 +1637,7 @@ hr {
 	height:40px
 }
 .color-switcher ul li.yellow a {
-	background-color:#FFCA37
+	background-color:rgba(80,200,120,0.5)
 }
 .color-switcher ul li.red a {
 	background-color:#E74C3C
@@ -1874,3 +1912,4 @@ hr {
     color:  rgb(182, 137, 10);
     font-size: 14px;
 }
+
