@@ -1710,3 +1710,40 @@ strong,
 	top: -22px;
 	left: 0;
 }
+
+@media(max-width: 385px)  {
+    /*.pane-when>.content{
+        border: 2px solid #0f0;
+    }*/
+
+    .digit > span.txt{
+      right: 28px !Important;
+      top: 15px !Important;
+    }
+
+    .clock-countdown{
+      /*border: 2px solid #f00;*/
+      padding:  10px 60px 10px 60px;
+      padding-top: 15px;
+      margin-top: 30px;
+      width: 100% !Important;
+    }
+
+    footer.center-text{
+      width: 100%;
+      /*border: 2px solid #f00;*/
+      text-align: center;
+    }
+
+    .content-container{
+      margin-top: 60px !important;
+    }
+
+    .quick-link{
+      background: none !Important;
+    }
+
+    .qmenu{
+      visibility: hidden;
+    }
+}
