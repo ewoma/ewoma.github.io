@@ -150,6 +150,9 @@ a:hover,a:focus {
 	padding-top:280px;
 	padding-bottom:120px
 }
+.section2 {
+	padding-bottom:120px
+}
 .section-title {
 	text-align:center;
 	margin-bottom:30px
@@ -230,6 +233,7 @@ a:hover,a:focus {
 .navbar-default {
 	z-index:2000;
 	margin-bottom:0;
+	margin-left: 150px;
 	padding:30px 20px;
 	border:0;
 	-moz-border-radius:0;
@@ -375,7 +379,7 @@ a:hover,a:focus {
 	height:100%;
 	overflow-y:scroll;
 	color:white;
-	background:rgba(80, 200, 120, 0.5);;
+	background:rgba(80, 200, 120, 1);
 	background:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2EzNyIgc3RvcC1vcGFjaXR5PSIwLjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmNhMzciIHN0b3Atb3BhY2l0eT0iMC44Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g'),url("../img/gbDoor.jpg") no-repeat center center;
 	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(80,200,120,0.5)),color-stop(100%, rgba(80,200,120,0.5))),url("../img/gbDoor.jpg") no-repeat center center;
 	background:-moz-linear-gradient(rgba(80,200,120,0.5),rgba(80,200,120,0.5)),url("../img/gbDoor.jpg") no-repeat center center;
@@ -595,7 +599,7 @@ a:hover,a:focus {
 .header-fullscreen {
 	position:relative;
 	width:100%;
-	height:180vh;
+	height:auto;
 	overflow:hidden;
 	color:white;
 	background:url("../img/m.jpg") no-repeat center 0;
@@ -607,10 +611,10 @@ a:hover,a:focus {
 .header-fullscreen1 {
 	position:relative;
 	width:100%;
-	height:180vh;
+	height:400px;
 	overflow:hidden;
 	color:white;
-	background:url("../img/gbDoor.jpg") no-repeat center 0;
+	background:#ffffff;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -619,10 +623,9 @@ a:hover,a:focus {
 .header-fullscreen2 {
 	position:relative;
 	width:100%;
-	height:220vh;
+	height:auto;
 	overflow:hidden;
 	color:white;
-	background:url("../img/gianna8.jpg") no-repeat center 0;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -631,10 +634,9 @@ a:hover,a:focus {
 .header-fullscreen3 {
 	position:relative;
 	width:100%;
-	height:180vh;
+	height:auto;;
 	overflow:hidden;
 	color:white;
-	background:url("../img/gianna2.jpg") no-repeat center 0;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -643,10 +645,9 @@ a:hover,a:focus {
 .header-fullscreen4 {
 	position:relative;
 	width:100%;
-	height:180vh;
+	height:auto;
 	overflow:hidden;
 	color:white;
-	background:url("../img/survey.jpg") no-repeat center 0;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-webkit-background-size:cover;
@@ -666,7 +667,7 @@ a:hover,a:focus {
 	font-size:1.5em
 }
 .header-fullscreen .overlay, .header-fullscreen1 .overlay,
-.header-fullscreen2 .overlay, .header-fullscreen3 .overlay, 
+.header-fullscreen2 .overlay, .header-fullscreen3 .overlay,
 .header-fullscreen4 .overlay {
 	display:block;
 	width:100%;
@@ -679,17 +680,17 @@ a:hover,a:focus {
 	background:url("../img/overlay-pattern.png") repeat 0 0 scroll,transparent
 }
 .header-fullscreen .overlay1, .header-fullscreen1 .overlay1,
-.header-fullscreen2 .overlay1, .header-fullscreen3 .overlay1, 
+.header-fullscreen2 .overlay1, .header-fullscreen3 .overlay1,
 .header-fullscreen4 .overlay1 {
 	display:block;
 	width:100%;
-	height:200vh;
+	height:auto;
 	position:absolute;
 	top:0;
 	right:0;
 	bottom:0;
 	left:0;
-	background:url("../img/overlay-pattern.png") repeat 0 0 scroll, transparent
+	/*background:url("../img/overlay-pattern.png") repeat 0 0 scroll, transparent*/
 }
 .header-fullscreen .carousel {
 	height:100%
@@ -1694,6 +1695,25 @@ hr {
 .color-switcher ul li.orange a {
 	background-color:#E87E04
 }
+
+.backdrop {
+	background: url("../img/gbDoor.jpg") no-repeat top center fixed;
+	height: 100%;
+}
+.backdrop1 {
+	background: url("../img/gianna8.jpg") no-repeat top center fixed;
+	height: 100%;
+}
+.backdrop3 {
+	background: url("../img/gianna2.jpg") no-repeat top center fixed;
+	height: 100%;
+}
+.backdrop4 {
+	background: url("../img/survey.jpg") no-repeat top center fixed;
+	height: 100%;
+	background-size: cover;
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 	.header-fullscreen h1 {
 		font-size:3.3em
@@ -1951,4 +1971,121 @@ hr {
     font-family: 'Georgia', sans-serif;
     color:  rgb(182, 137, 10);
     font-size: 14px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-default {
+    margin-left: 60px;
+	}
+	.wrap-diamond-posts {
+		margin-top: -90px;
+	}
+	.wrap-diamond-posts .diamont-text-wrap .entry-title{
+		font-size: 14px;
+	}
+	.diamont-text-wrap .number-article {
+		top: 34%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-default {
+    margin-left: 60px;
+	}
+	.wrap-diamond-posts {
+		margin-top: -90px;
+	}
+	.wrap-diamond-posts .diamont-text-wrap .entry-title{
+		font-size: 14px;
+	}
+	.diamont-text-wrap .number-article {
+		top: 34%;
+	}
+	.survey {
+		margin-top: 90px;
+	}
+	.header-fullscreen {
+		height: 100%;
+	}
+	.header-fullscreen2 {
+		height: 100%;
+	}
+	.header-fullscreen4 {
+		height: 100%;
+	}
+	.header-fullscreen .overlay {
+		height: 100%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.navbar-default {
+    margin-left: 1px;
+	}
+	.wrap-diamond-posts{
+		margin-top: -156px;
+		margin-left: -1px;
+	}
+	.section1 {
+    margin-top: 120px;
+	}
+	.mission {
+		margin-top: -230px;
+	}
+	.header-fullscreen {
+		height: 100%;
+	}
+	.header-fullscreen .overlay {
+		height: 2200vh;
+	}
+	.header-fullscreen2 {
+		height: 100%;
+	}
+	.header-fullscreen4 {
+		height: 100%;
+	}
+	.events, .mottos, .survey {
+		margin-top: 150px;
+	}
+	.diamondexcerpt {
+		text-align: center;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+	.navbar-default {
+		margin-left: 15px;
+		padding: 10px 0px;
+		font-size: 12px;
+	}
+	.navbar-social {
+		margin-left: -40px;
+	}
+	.social-links li {
+		padding: 2px 5px;
+	}
+	.social-links li .fa {
+		margin-top: 0px;
+	}
+	.wrap-diamond-posts{
+		margin-top: -105px;
+	}
+	.header-fullscreen {
+		height: 100%;
+	}
+	.header-fullscreen .overlay {
+		height: 1600vh;
+	}
+	.header-fullscreen2 {
+		height: 100%;
+	}
+	.header-fullscreen4 {
+		height: 100%;
+	}
+	.events, .mottos, .survey {
+		margin-top: 140px;
+	}
+	.diamondexcerpt {
+		text-align: center;
+	}
 }

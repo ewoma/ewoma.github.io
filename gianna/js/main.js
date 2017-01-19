@@ -416,3 +416,10 @@ jQuery(document).ready(function($) {
 
 });
 
+
+
+// if ($("body").hasClass("noscroll")) {
+// 	$(".fa").css("color","#fff");
+// } else {
+// 	$(".fa").css("color","#5B6770");
+// }

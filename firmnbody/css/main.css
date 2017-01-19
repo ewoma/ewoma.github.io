@@ -1712,9 +1712,10 @@ strong,
 }
 
 @media(max-width: 385px)  {
-    /*.pane-when>.content{
-        border: 2px solid #0f0;
-    }*/
+    .content-container{
+        border: 2px solid #f00;
+        padding-left:0px;
+    }
 
     .digit > span.txt{
       right: 28px !Important;
