@@ -1,0 +1,5 @@
+<svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+	<circle fill="#FFCC35" class="background" cx="100" cy="100" r="100"/>
+	<path fill="#50c878" class="shadow" d="M131,195.1l-23.3-51.8l60.2-36.2l-138.4-31L0.2,93.8c0,0,0.8-13.5,0,0C0.1,95.8,0,97.9,0,100c0,34.1,17,64.2,43.1,82.2C59.2,193.4,78.9,200,100,200C110.8,200,121.2,198.3,131,195.1"/>
+	<path fill="#FFFFFF" class="spark" d="M77.2,2.6c30.2,34.8,60.5,69.7,90.7,104.5H91.4c13.2,29.3,26.4,58.6,39.6,88C97.1,155.5,63.3,115.8,29.4,76.2h79.3C98.2,51.6,87.7,27.1,77.2,2.6z"/>
+</svg>
