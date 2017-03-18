@@ -306,7 +306,7 @@
 
 																											<div class="row">
 																												<div class="col-sm-12 col-lg-offset-2 col-lg-8 text-center wow fadeInUp animated">
-																													<form name="bookingForm" id="bookingForm" novalidate="">
+																													<form name="bookingForm" id="bookingForm" novalidate="" action="https://formspree.io/blessingonomesino@gmail.com" method="POST">
 																														<div class="control-group">
 																															<div class="controls">
 																																<input class="form-control text-center" name="time" placeholder="Name" required="" data-validation-required-message="Enter your Name" type="text">
@@ -354,6 +354,9 @@
 																					</div><!--/.carousel-->
 
 																				</section>
+
+																				<!-- Scheduling session  -->
+
 																				<section id="survey" class="header-fullscreen4">
 																					<div class="overlay1"></div>
 																					<div id="carousel-header" class="carousel slide">
@@ -378,7 +381,19 @@
 
 																													<div class="row">
 																														<div class="col-sm-12 col-lg-offset-2 col-lg-8 text-center wow fadeInUp animated">
-																															<form name="subscribeForm" id="subscribeForm" novalidate="">
+
+																															<!--
+
+
+																															<form action="https://formspree.io/your@email.com"
+																															      method="POST">
+																															    <input type="text" name="name">
+																															    <input type="email" name="_replyto">
+																															    <input type="submit" value="Send">
+																															</form>
+
+																														 -->
+																															<form name="subscribeForm" id="subscribeForm" novalidate="" action="https://formspree.io/blessingonomesino@gmail.com" method="POST">
 																																<div class="control-group">
 																																	<div class="controls">
 																																		<input class="form-control text-center" name="time" placeholder="Time" required="" data-validation-required-message="Book a Time" type="time">
@@ -405,6 +420,8 @@
 																						</section><!---/.header-fullscreen-->
 
 																					</div><!--/.main-->
+
+																					<!-- End of scheduling session -->
 
 																					<!-- Footer
 																					================================================== -->
@@ -462,6 +479,32 @@
 																			</script>
 																			<noscript><div class="statcounter"><a title="click tracking" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="http://c.statcounter.com/10202269/0/830f996d/1/" alt="click tracking"></a></div></noscript>
 																			<!-- End of StatCounter Code for Default Guide -->
+
+																			<!-- Script to recieve scheduling message -->
+																			<!-- <script>
+																			   $('#subscribeForm').one('submit',function(){
+																			       var time = encodeURIComponent($('#time').val());
+																			       var date = encodeURIComponent($('#date').val());
+																			       var sub = encodeURIComponent($('#subject').val());
+																			       var msg = encodeURIComponent($('#comments').val());
+
+																			       var q1ID = "entry.1722198615";
+																			       var q2ID = "entry.544645414";
+																			       var q3ID = "entry.655137502";
+																			       var q4ID = "entry.1647367434";
+																			       var baseURL = 'https://docs.google.com/forms/d/1gW0y02rXJpLLJefJzS91HYapCxj67eOhLlhiwNhmZsc/formResponse?';
+																			       var submitRef = '&submit=Send message';
+																			       var submitURL = (baseURL + q1ID + "=" + name + "&" + q2ID + "=" + email + "&" + q3ID + "=" + sub +  "&" + q4ID + "=" + msg + submitRef);
+																			       console.log(submitURL);
+																			       $(this)[0].action=submitURL;
+																			     alert("Thanks for making out time to contact me")
+																			     document.getElementById("contactform").reset();
+																			       // $('#input-name').addClass('active').val('Thank You!');
+																			   });
+																			</script> -->
+																			<!-- End of script to receive scheduling message -->
+
+
 
 																		</body>
 
